@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [name, setName] = useState("");
+  const [name, setName] = useState("Parameter");
 
   function handleChange(event) {
     setName(event.target.value);
